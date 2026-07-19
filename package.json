@@ -1,7 +1,7 @@
 {
-  "name": "claude-study-server",
+  "name": "study-server",
   "version": "1.0.0",
-  "description": "Self-hosted HTTP backend that generates study summaries, flashcards, and quiz questions via a local Ollama daemon (with transparent routing to Ollama Cloud models). Designed to pair with the obsidian-speed-reading and obsidian-study-quiz plugins, but usable from any client.",
+  "description": "Self-hosted HTTP backend that generates study summaries, flashcards, quiz questions, and answer grading via any OpenAI-compatible local LLM server (llama.cpp, Ollama, etc.), with auto-discovery across multiple endpoints. Designed to pair with the obsidian-speed-reading and obsidian-study-quiz plugins, but usable from any client.",
   "main": "dist/server.js",
   "scripts": {
     "test": "jest",
@@ -23,7 +23,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LuisReinoso/claude-study-server.git"
+    "url": "https://github.com/LuisReinoso/study-server.git"
   },
   "dependencies": {
     "cors": "^2.8.5",

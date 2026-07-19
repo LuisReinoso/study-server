@@ -1,5 +1,5 @@
 [Unit]
-Description=Claude Study Server - AI quiz/flashcard/summary generation
+Description=Study Server - AI quiz/flashcard/summary generation
 After=network.target
 
 # Template systemd unit. Copy to /etc/systemd/system/ (or ~/.config/systemd/user/
@@ -8,7 +8,7 @@ After=network.target
 #   <INSTALL>    → absolute path to the cloned repository
 # After editing, run:
 #   systemctl daemon-reload
-#   systemctl enable --now claude-study-server
+#   systemctl enable --now study-server
 
 [Service]
 Type=simple
